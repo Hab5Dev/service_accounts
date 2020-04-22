@@ -1,0 +1,34 @@
+{
+  "name": "@hab5-services/accounts",
+  "version": "0.0.1",
+  "description": "Habbo Accounts MicroService",
+  "main": "src/accounts-plugin.ts",
+  "scripts": {
+    "service": "ts-node src/account-service.ts",
+    "check-types": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hab5 Development Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.9",
+    "seneca": "^3.20.3",
+    "seneca-balance-client": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "@types/bcrypt": "^3.0.0",
+    "@types/mongoose": "^5.7.12",
+    "@types/node": "^13.13.1",
+    "@types/seneca": "^2.1.9",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  }
+}
