@@ -11,7 +11,7 @@
   "author": "Hab5 Development Team",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.0.0",
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.9",
     "seneca": "^3.20.3",
